@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  align-items: center;
+}
+.contenedor {
+  background: rgb(255, 255, 255);
+  height: 800px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+.fila {
+  margin: 0.5px;
+  display: flex;
+  height: 6.25%;
+}
+.caja {
+  display: flex;
+  margin: 0.5px;
+  width: 120px;
+  height: 100%;
+}
+
+#blanco {
+  background: rgb(255, 255, 255);
+}
+#rojo {
+  background: #ff0000;
+}
+#marronoscuro {
+  background: #2e1305;
+}
+#negro {
+  background: #040000;
+}
+#piel {
+  background: #ffb380;
+}
+#amarillo {
+  background: #ffff01;
+}
+#azul {
+  background: #0000ff;
+}
+#marronclaro {
+  background: #502d16;
+}
